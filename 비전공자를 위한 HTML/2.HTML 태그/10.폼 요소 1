@@ -1,0 +1,36 @@
+폼 요소
+서버에 데이터를 전달하기 위한 요소
+
+대표적인 폼 요소:<input>
+<input>은 내용이 없는 빈 요소이며 type 속성을 통해 여러 종류의 입력 양식으로 나타나게 된다
+
+type="text"
+ex) <input type="text" placeholder="o o o">
+아이디, 이름, 주소, 전화번호 등 단순한 테스트를 입력할 때 사용한다
+type="text"에는 placeholder 속성이 존재한다
+placeholder 속성은 사용자가 입력하기 전 미리 화면에 노출하는 값으로, 입력하는 값의 양식을 표현할 수 있다.
+
+type="password"
+ex) <input type="password">
+
+암호와 같이 공개할 수 없는 내용을 입력할 때 사용합니다.
+화면에는 type="text"와 같게 나타나지만 실제로 입력할 때 값을 노출하지 않습니다
+
+type="radio"
+
+ex)<input type="radio" name="gender">남자
+ex)<input type="radio" name="gender">여자
+
+라디오 버튼을 만들 때 사용한다
+라디오 버튼은 중복 선택이 불가능하며 하나의 항목만을 선택해야 한다
+
+type="chekcbox"
+
+ex)<input type="checkbox"name="hobby">등산
+ex)<input type="checkbox"name="hobby">독서
+ex)<input type="checkbox"name="hobby">운동
+
+체크박스를 만들 때 사용하며, 체크박스는 중복 선택이 가능합니다.
+
+checked 속성:값이 별도로 존재하지 않는 boolean 속성
+name 속성:라디오 버튼과 체크박스를 그룹화시켜주는 속성

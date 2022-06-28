@@ -1,0 +1,17 @@
+<label>
+<label>은 form 요소의 이름과 form 요소를 명시적으로 연결시켜주기 위해 사용합니다.
+모든 form 요소에 사용할 수 있습니다.
+
+form 요소의 id 속성값과 label의 for 속성값을 같게 적어주어야 합니다.
+<label>을 사용하면 이를 클릭했을 경우 해당 form 요소를 클릭한 것처럼 동작합니다.
+
+<label>은 사용성,접근성에 중요한 역할을 하므로 반드시 써주는 것이 좋습니다.
+
+<fieldset>,<legend>
+<fieldset>,<legend>는 form 요소를 구조화 하기 위해 필요한 태그입니다.
+<fieldset>:여러 개의 폼 요소를 그룹화하여 구조적으로 만들기 위해 사용
+<legend>:폼 요소의 제목으로 <fieldset> 내부에 작성
+
+<fieldset>은 보통 form의 성격에 따라 구분한다
+<legend>는 <fieldset>의 자식으로 반드시 최상단에 위치해야 한다.
+

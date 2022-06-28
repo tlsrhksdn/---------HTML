@@ -1,0 +1,5 @@
+<colgroup>:공통된 속성을 가지는 열들을 묶기 위한 태그이다
+<col>:colgroup으로 묶을 각 공통된 속성 선언
+scope,headers 속성: 스크린 리더기를 위한 설정
+-scope는 스크린 리더기가 읽어줄 방향에 관한 설정
+-headers는 해당셀과 관련된 id정보 전달
